@@ -1,4 +1,4 @@
-# Multi_classfication
+# Number Handwriting Multi Classfication
 
 data: MNIST
 
