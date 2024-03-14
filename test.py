@@ -46,7 +46,7 @@ cost=0
 #행렬연산
 def calculation(i):
   global n1,n2_1,n2_2,n3_1,n3_2,n4_1,n4_2,b1,b2,b3
-  n1=x_train[i]
+  n1=x_test[i]
   n2_1 = np.dot(n1, w1)+b1
   n2_2 = ReLU(n2_1)
   n3_1 = np.dot(n2_2, w2)+b2
